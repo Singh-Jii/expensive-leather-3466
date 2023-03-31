@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- navbar -->
+
 
     <div class="nav">
         <img src="./images/naukri.com logo.jpg" alt="error" class="logo">
 
         <div class="dropdowns">
-            <a href="">Jobs</a>
-            <div class="drop-down-box">
-            <div>
+            <a href=""><button style="font-size: larger;margin-top: 20px;border: none;background-color: white;">Jobs</button></a>
+            <div style="display: flex;">
+            <div class="dropdown-content">
                 <h3>Popular categories</h3>
                 <a href="">IT jobs</a>
                 <a href="">Sales jobs</a>
-                <a href="">Marketing jobs</a>
+                <a href="">Marketing</a>
                 <a href="">Data Science jobs</a>
                 <a href="">HR jobs</a>
-                <a href="">Engineering jobs</a>
+                <a href="">Engineering</a>
             </div>
-            <div>
+            <div class="dropdown-content" style="margin-left: 110px;">
                 <h3>Jobs in demand</h3>
                 <a href="">Fresher jobs</a>
                 <a href="">MNC jobs</a>
@@ -33,33 +35,36 @@
                 <a href="">Walk-in jobs</a>
                 <a href="">Part-time jobs</a>
             </div>
-            <div>
+            <div class="dropdown-content" style="margin-left: 220px;">
                 <h3>Jobs by location</h3>
-                <a href="">Jobs in Delhi</a>
-                <a href="">Jobs in Mumbai</a>
-                <a href="">Jobs in Bangalore</a>
-                <a href="">Jobs in Hyderabad</a>
-                <a href="">Jobs in Chennai</a>
-                <a href="">Jobs in Pune</a>
+                <a href="">Delhi</a>
+                <a href="">Mumbai</a>
+                <a href="">Bangalore</a>
+                <a href="">Hyderabad</a>
+                <a href="">Madhya Pradesh</a>
+                <a href="">Pune</a>
+                
             </div>
             </div>
+            
         </div>
 
 
-        <div>
 
-            <a href="">Companies</a>
-            <div class="drop-down-box">
-            <div>
+        <div class="dropdowns">
+
+            <a href=""><button style="font-size: larger;margin-top: 20px;border: none;background-color: white;">Companies</button></a>
+            <div style="display: flex;">
+            <div class="dropdown-content">
+            
                 <h3>Explore categories</h3>
                 <a href="">Unicorn</a>
                 <a href="">MNC</a>
                 <a href="">Startup</a>
                 <a href="">Product based</a>
                 <a href="">Internet</a>
-                
             </div>
-            <div>
+            <div class="dropdown-content" style="margin-left: 165px;">
                 <h3>Explore collections</h3>
                 <a href="">Top companies</a>
                 <a href="">IT companies</a>
@@ -67,11 +72,8 @@
                 <a href="">Sponsored companies</a>
                 <a href="">Featured companies</a>
             </div>
-            <div>
-                <h3>Research companies
-                    by
-                    
-                    Ambitionbox</h3>
+            <div class="dropdown-content" style="margin-left: 335px;">
+                <h3>Research companies</h3>
                 <a href="">Interview questions</a>
                 <a href="">Company salaries</a>
                 <a href="">Company reviews</a>
@@ -83,10 +85,11 @@
         </div>
 
 
-        <div>
-            <a href="">Services</a>
-            <div class="drop-down-box">
-            <div>
+        <div class="dropdowns">
+            <a href=""><button style="margin-right: 300px; font-size: larger;margin-top:20px;border: none;background-color: white;">Services</button></a>
+            <div style="display: flex;">
+            <div class="dropdown-content">
+            
                 <h3>Resume writing</h3>
                 <a href="">Text resume</a>
                 <a href="">Visual resume</a>
@@ -97,14 +100,14 @@
                 <a href="">Priority applicant</a>
                 <a href="">Contact us</a>
             </div>
-            <div>
+            <div class="dropdown-content" style="margin-left: 145px;">
                 <h3>Get recruiter's attention</h3>
                 <a href="">Resume display</a>
                 <a href="">Job search booster</a>
                 <h3>Monthly subscriptions</h3>
                 <a href="">Basic & premium plans</a>
             </div>
-            <div>
+            <div class="dropdown-content" style="margin-left: 355px;">
                 <h3>Free resume resources</h3>
                 <a href="">Resume maker for freshers</a>
                 <a href="">Resume quality score</a>
@@ -115,20 +118,82 @@
 
         </div>
 
-        <button>Login</button>
-        <button>Register</button>
-
+        <a href=""><button style="margin-right: 20px; font-size: larger;border-radius: 40px;margin-top: 20px;border:1px solid blue;background-color: white; color: blue;">Login</button></a>
+        <a href=""><button style="margin-right: 20px; font-size: larger;border-radius:40px ;margin-top: 20px;border: none;background-color: rgba(255, 123, 0, 0.926);color: white;">Register</button></a>
 
         <div>
-            <div>
-                <h3>For employers</h3>
-                <a href="">Post a job</a>
-                <a href="">Buy online</a>
-                <a href="">Employer Login</a>
-                
-            </div>
+            <select style="height: 40px;margin-top: 12px;border: none;">
+            <option value=""><p>For employers</p></option>
+            <a href=""><option value="">Post a job</option></a>
+            <a href=""><option value="">Buy online</option></a>
+            <a href=""><option value="">Employer Login</option></a>
+            </select>
         </div>
     </div>
+
+
+    <!-- background pic -->
+
+
+    <div style="border:2px solid white;height: 180px;width: 100%;background-color:rgb(249, 249, 249)">
+
+       <h1 style="font-size:40px;text-align: center;line-height: 1px;margin-top: 80px;">Find your dream job now</h1>
+       <p style="font-size: larger;text-align: center;color: gray;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">5 lakh+ jobs for you to explore</p>
+
+
+    </div>
+
+
+    <!-- searchbar -->
+
+
+
+    <div id="Searchbar" style="margin-top: 0px;">
+        <div>
+            <img src="https://static.naukimg.com/s/7/103/i/search.9ec0e1ac.svg" alt="">
+
+        </div>
+        <input type="text" name="" id="" placeholder="Enter skills / designations / companies       |" tabindex="0"
+            size="40">
+        <select name="Select Experience ↓ " id="dropdown">
+            <option value="">Select Experience ↓ </option>
+            <option value="">Freshar <small>(less than 1 year)</small> </option>
+            <option value="">1 year </option>
+            <option value="">2 years </option>
+            <option value="">3 years </option>
+            <option value="">4 years </option>
+            <option value="">5 years </option>
+            <option value="">6 years </option>
+            <option value="">6 years </option>
+            <option value="">7 years </option>
+            <option value="">8 years </option>
+        </select>
+        <input type="text" placeholder="Enter location">
+        <button id="button">Search</button>
+    </div>
+
+<!-- companies -->
+
+
+
+
+<div id="btd_sc">
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg" alt=""><h3>Remote  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg" alt=""><h3>MNC  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/freshers.svg" alt=""><h3>Fresher  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/analytics.svg" alt=""><h3>Analytics  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/marketing.svg" alt=""><h3>Marketing  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/finance.svg" alt=""><h3>Banking &  ></h3></button></a>
+</div>
+
+
+<div id="btm_sc">
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/startup.svg" alt=""><h3>Startup  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/data-science.svg" alt=""><h3>Data Science  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/engineering.svg" alt=""><h3>Engineering  ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/hr.svg" alt=""><h3>HR ></h3></button></a>
+    <a href=""><button id="btn_sc"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/fortune-500.svg" alt=""><h3>Fortune 500  ></h3></button></a>
+</div>
     
 </body>
 </html>

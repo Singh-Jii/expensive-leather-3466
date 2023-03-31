@@ -1,8 +1,22 @@
 .nav{
     display: flex;
-    position: fixed;
+    /* position: fixed; */
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70px;
+    /* margin-top: 100px; */
 }
-.dropdown {
+.logo{
+    width: 170px;
+    height: 70px;
+    margin-left: 130px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.dropdowns a button{
+    margin-left:50px ;
+}
+.dropdowns {
     display: inline-block;
     position: relative;
   }
@@ -11,9 +25,9 @@
     position: absolute;
     width: 100%;
     overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    /* box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4); */
   }
-  .dropdown:hover .dropdown-content {
+  .dropdowns:hover .dropdown-content {
     display: block;
   }
   .dropdown-content a {
@@ -24,5 +38,116 @@
   }
   .dropdown-content a:hover {
     color: #FFFFFF;
-    background-color: #00A4BD;
+    color: blue;
   }
+  
+
+
+  /* searchbar */
+
+
+  #Searchbar {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 70%;
+    height: 65px;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #fcfdfe
+}
+
+input {
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+select {
+    height: 20px;
+}
+
+div>img {
+   
+    margin: 5px 0px 0px 10px;
+    padding-left: 10px;
+}
+
+img>input {
+    padding-bottom: 10px;
+}
+
+select {
+    border: none;
+}
+
+#button {
+    padding: 11px 28px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    background: #457eff;
+    box-shadow: 0 5.07692px 12.6923px rgb(69 126 255 / 10%);
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+  /* buttons */
+
+  #btd_sc{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    margin-top: 60px;
+   }
+   #btm_sc{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    margin-top: 25px;;
+   }
+    #btn_sc{
+    display:flex;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap:10px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius:15px ;
+    border:rgb(237, 244, 246) 2px solid;
+    background-color: white;
+}
+#btn_sc>img{
+    width:40px;
+    margin:auto;
+    
+}
+
+#btn_sc>h3{
+    text-align: center;
+    margin:auto;
+    line-height: 10px;
+    
+}
+#btn_sc>h3{
+    display:flex;
+    justify-content: center;
+}
+#btn_sc:hover{
+    box-shadow: rgba(95, 217, 247, 0.25) 0px 6px 12px -2px, rgba(129, 225, 249, 0.3) 0px 3px 7px -3px;
+}
