@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>
+        Login
+    </title>
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/373/665/png-transparent-naukri-com-employment-website-job-hunting-online-job-search-india-employment-online-job-search-thumbnail.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./login.css">
+    
+    
+  
+</head>
+
+<body>
+
+    <div class="nav" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <a href="./index.html"><img src="./images/naukri.com logo.jpg" alt="error" class="logo"></a>
+
+        <div class="dropdowns">
+            <a href=""><button style="font-size: larger;margin-top: 20px;border: none;background-color: white;">Jobs</button></a>
+            <div style="display: flex;background-color: white;" class="k">
+            <div class="dropdown-content" style="width: 130px;">
+                <h3>Popular categories</h3>
+                <a href="">IT jobs</a>
+                <a href="">Sales jobs</a>
+                <a href="">Marketing</a>
+                
+            </div>
+            <div class="dropdown-content" style="margin-left: 105px;">
+                <h3>Jobs in demand</h3>
+                <a href="">Fresher jobs</a>
+                <a href="">MNC jobs</a>
+                
+            </div>
+            <div class="dropdown-content" style="margin-left: 195px;">
+                <h3>Jobs by location</h3>
+                <a href="">Delhi</a>
+                <a href="">Mumbai</a>
+                <a href="">Bangalore</a>
+                
+            </div>
+            </div>
+            
+        </div>
+
+
+
+        <div class="dropdowns">
+
+            <a href=""><button style="font-size: larger;margin-top: 20px;border: none;background-color: white;">Companies</button></a>
+            <div style="display: flex;background-color: white;" class="ka">
+            <div class="dropdown-content">
+            
+                <h3>Explore categories</h3>
+                <a href="">Unicorn</a>
+                <a href="">MNC</a>
+                <a href="">Startup</a>
+            </div>
+            <div class="dropdown-content" style="margin-left: 146px;">
+                <h3>Explore collections</h3>
+                <a href="">Top companies</a>
+                <a href="">IT companies</a>
+                <a href="">Fintech companies</a>
+            </div>
+            
+            </div>
+
+        </div>
+
+
+        <div class="dropdowns">
+            <a href=""><button style="margin-right: 300px; font-size: larger;margin-top:20px;border: none;background-color: white;">Services</button></a>
+            <div style="display: flex;" class="kb">
+            <div class="dropdown-content">
+            
+                <h3>Resume writing</h3>
+                <a href="">Text resume</a>
+                <a href="">Visual resume</a>
+                <a href="">Resume critique</a>
+            </div>
+            <div class="dropdown-content" style="margin-left: 150px;">
+                <h3>Get recruiter's attention</h3>
+                <a href="">Resume display</a>
+                <a href="">Job search booster</a>
+            </div>
+            <div class="dropdown-content" style="margin-left: 370px;">
+                <h3>Free resume resources</h3>
+                <a href="">Resume maker for freshers</a>
+                <a href="">Resume quality score</a>
+            </div>
+            </div>
+
+        </div>
+
+        <a href="./login.html"><button style="margin-right: 20px; font-size: larger;border-radius: 40px;margin-top: 20px;border:1px solid blue;background-color: white; color: blue;width: 130px;">Login</button></a>
+        <a href=""><button style="margin-right: 20px; font-size: larger;border-radius:40px ;margin-top: 20px;border: none;background-color: rgba(255, 123, 0, 0.926);color: white;width: 140px;">Register</button></a>
+
+        
+    </div>
+
+  
+ 
+   
+  
+  
+        <div id="row">
+
+
+            <!-- content -->
+            <div class="content">
+
+
+                <!-- left side-->
+            <div class="left" >
+                
+
+               <img src="https://i.im.ge/2022/06/16/rnpgwp.png" alt="rnpgwp.png" >
+                
+
+            </div>
+            
+
+
+            <!-- left side-->
+            <div class="right">
+
+                
+                <!-- form-->
+
+                <form id="form">
+
+
+                    <h1>Login</h1>
+
+                    
+                    <div class="gap">
+
+                        <label for="">Enter Email ID / Username</label><br />
+                      <input id="email" type="email" placeholder="Enter Email ID / Username" /><br />
+
+
+                    </div>
+
+
+                    
+                    <div class="gap">
+
+                      <label for="">Password</label><br />
+                      <input id="password" type="password" placeholder="Enter Password" />
+                      <a href="">Forgot Password ?</a>
+
+
+                    </div>
+
+
+
+                    <div id="c">
+
+                        
+                        <button id="submit" class="open-popup" type="submit">Log In</button> 
+
+                        <a href="">Use OTP to logIn</a>
+
+
+                        
+                    </div> 
+                    
+                    
+               </form>
+
+          
+            </div>
+
+
+        </div>
+
+
+
+        </div>
+        
+    </div>    
+  
+</body>
+
+
+</html>
+<script >
+
+// created function
+
+document.querySelector("#form").addEventListener("submit",func)
+
+// LOCAL STORAGE FROM SIGNUP STORED SIGNUP DATA
+
+let signupDATA_LS = JSON.parse(localStorage.getItem("details"));
+
+
+// LOGIN data stored in this 
+
+let loginDATA_LS = JSON.parse(localStorage.getItem("logdetails")) || [] ;
+
+
+
+let formtag = document.querySelector("#form")
+
+    function func(event){
+
+
+       event.preventDefault();
+
+//    stored all values from input tag in variable
+
+
+       let email = formtag.email.value
+
+       let  pass = formtag.password.value 
+
+       
+        if(signupDATA_LS  == null){
+       
+           alert("You Have To Register First")
+
+            window.location.href="Register.html" 
+       
+        }else{
+
+            signupDATA_LS.map(function(el){
+
+                if((email == el.email) && (pass== el.pass)){
+
+                  let obj = {
+
+                    "email":email,
+
+                    "pass":pass,
+
+                  }
+
+                  
+                  loginDATA_LS.push(obj);
+
+                  localStorage.setItem("logdetails",JSON.stringify(loginDATA_LS))
+
+                  alert("Sign In Successfully, Enjoy")
+
+                  (window.location.href="myNaukri.html").break;
+
+
+                 
+                  }else{
+
+                  alert("Please Check Details").break;
+
+                
+                }
+
+            })
+
+        }
+    }
+
+</script>
+
+
+    
+    
