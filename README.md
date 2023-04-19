@@ -4,7 +4,7 @@
 
 # Jobs.com
 
-Clone of Naukri.com
+**Clone of Naukri.com**
 It is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies and to job seekers in India and overseas. It offers multiple products like Resume Database Access, listings and Response Management Tools.
 
 ![naukri com logo](https://user-images.githubusercontent.com/119485511/233195896-ba687b37-4942-45c3-b7ad-6ce1318ae07c.jpg)
