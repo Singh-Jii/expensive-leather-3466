@@ -23,28 +23,28 @@ Javascript, HTML, CSS...
 
 
 ## Landing Page
-![landing page](https://user-images.githubusercontent.com/119485511/231372737-771d8c60-993e-40a8-85e1-81f3b7573b9d.jpg)
+![landing page](https://user-images.githubusercontent.com/119485511/233198579-26321275-6f21-4b83-86f9-709ec51a1cd9.jpg)
+
 
 
 ## Register Page
-![register page](https://user-images.githubusercontent.com/119485511/231372886-de1b8310-bece-44b9-90c9-98fd04146fa3.jpg)
+![register](https://user-images.githubusercontent.com/119485511/233198637-7fe9fac5-ce72-4935-80dc-a8bcc44b9211.jpg)
+
 
 
 ## Login/Signup Page
-![login-signup page](https://user-images.githubusercontent.com/119485511/231373032-18c34ae5-ec14-4542-bcef-41bf1ae19e4c.jpg)
+![login](https://user-images.githubusercontent.com/119485511/233198689-763c541a-8ab3-498f-ac3e-bb6a0fdbf8d5.jpg)
 
 
-## Product Page
 
-![product page](https://user-images.githubusercontent.com/119485511/231373231-84c697f4-b209-4293-9d18-3c3c23ff0baf.jpg)
-
-
-![product2 page](https://user-images.githubusercontent.com/119485511/231373275-c0b925c6-6da5-4d74-8b06-a7793f9e4e9b.jpg)
+## Companies Page
+![sponsered companies](https://user-images.githubusercontent.com/119485511/233198845-92aad052-e481-43a7-813d-e82c0a42d118.jpg)
 
 
-## Wishlist Page
 
-![wishlist page](https://user-images.githubusercontent.com/119485511/231373413-baab73f8-e104-4719-b6d1-884a4f2e014b.jpg)
+## Footer Section
+![footer](https://user-images.githubusercontent.com/119485511/233198959-f56346b0-e53a-4491-8e34-29b8fc7b5555.jpg)
+
 
 
 ## Linkedin
