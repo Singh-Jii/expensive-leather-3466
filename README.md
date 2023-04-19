@@ -10,8 +10,8 @@
 ![naukri com logo](https://user-images.githubusercontent.com/119485511/233195896-ba687b37-4942-45c3-b7ad-6ce1318ae07c.jpg)
 
 
-[website Url--](https://cerulean-hummingbird-b88b5c.netlify.app)
-[github url--](https://github.com/Singh-Jii/dainty-snake-6499)
+[website Url--](https://superlative-banoffee-f4a291.netlify.app/)
+[github url--]()
 
 ## Tech Stack
  Html 
